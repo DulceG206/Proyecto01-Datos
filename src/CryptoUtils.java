@@ -13,8 +13,8 @@ public class CryptoUtils {
     }
 
     public static boolean verifySignature(String signature, String pubKey) {
-        return signature.equals("validSignature");
-    }
+    return signature.equals("Valid Signature" + pubKey);
+}
 
     private static String bytesToHex(byte[] bytes) {
         StringBuilder sb = new StringBuilder();
