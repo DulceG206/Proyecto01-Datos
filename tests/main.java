@@ -6,7 +6,7 @@ public class Main {
         ScriptInterpreter interpreter = new ScriptInterpreter(trace);
 
         List<String> script = Arrays.asList(
-                "sig:myPublicKey",
+                "Valid SignaturemyPublicKey",  // firma que de que sí pasa el verifySignature
                 "myPublicKey",
                 "OP_DUP",
                 "OP_HASH160",
